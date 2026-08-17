@@ -5,7 +5,7 @@ products:
     model: InverChlor
 entities:
   - entity: sensor
-    name: Saliniity
+    name: Salinity
     category: diagnostic
     dps:
       - id: 101
@@ -113,7 +113,7 @@ entities:
         type: integer
         optional: true
         name: value
-        unit: mv
+        unit: mV
         range:
           min: 650
           max: 800
@@ -151,7 +151,7 @@ entities:
         type: integer
         optional: true
         name: sensor
-        unit: mv
+        unit: mV
         class: measurement
   - entity: sensor
     class: ph
